@@ -2,10 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+/src/pad/static/txt/*.txt
 # C extensions
 *.so
-
+src/pad/static/json/*.json
 # Distribution / packaging
 .Python
 build/
