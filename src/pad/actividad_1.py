@@ -33,17 +33,9 @@ class Actividad_1():
 
         return True # booleano True (1) False (0)
 
-    #def graficar_rectas(self,recta_empinada, recta_plana, recta_abajo):
-    #def graficar_rectas(self,a, n,x):
-        # recta_empinada 0.0, recta_plana 0.0, recta_abajo 0.0 0.0=float 0=int 6545646546 = double
-        #f = (a*x)**n
-        #print("funcion_calculo:",f)--
-
-# vamos crea una intancia de la clase
+   
+# Creamos una intancia
 ingestion = Actividad_1()
-#datos_json = ingestion.leer_api("https://api.github.com/users/octocat")
-#"https://api.nbp.pl/api/exchangerates/tables/{table}/"
-#datos_json = ingestion.leer_api("https://api.nbp.pl/api/exchangerates/tables/B/")
 datos_json = ingestion.leer_api("https://api-colombia.com/api/v1/Country/Colombia")
 print("datos json:",datos_json)
 if ingestion.escribir_json(nombre_archivo="entrega_actividad_1.json",datos=datos_json):
